@@ -50,6 +50,7 @@ input {
 }
 
 output {
+  elasticsearch { host => "localhost" }   
   stdout { codec => rubydebug }
 }
 ```
